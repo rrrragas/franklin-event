@@ -225,7 +225,7 @@ header nav .nav-sections ul > li > ul > li {
 
   header nav .nav-sections ul {
     display: flex;
-    gap: 2em;
+    gap: 7em;
     margin: 0;
     font-size: var(--body-font-size-xs);
   }
@@ -272,4 +272,9 @@ header nav .nav-sections ul > li > ul > li {
 /* tools */
 header nav .nav-tools {
   grid-area: tools;
+}
+
+h1#franklin-event{
+  font-size: 35px;
+  color: red;
 }

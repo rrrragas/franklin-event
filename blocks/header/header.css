@@ -277,4 +277,16 @@ header nav .nav-tools {
 h1#franklin-event{
   font-size: 35px;
   color: red;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (min-width: 900px){
+header nav .nav-sections > ul > li {
+  flex: 0 1 auto;
+  position: relative;
+  font-weight: 700;
+  font-size: 18px;
+}
 }

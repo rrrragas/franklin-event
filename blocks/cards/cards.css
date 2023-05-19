@@ -44,6 +44,6 @@
 
 
 .cards.single > ul > li {
-  background-color: khaki;
+  background: linear-gradient(to right, #008080d4, #00808080);
   border-radius: 1%;
 }

@@ -288,6 +288,7 @@ h1#franklin-event{
 
 header .nav-wrapper{
     background: linear-gradient(to right, #d29274d4, #80004d80);
+    background-color: white;
 }
 
 @media (min-width: 900px){

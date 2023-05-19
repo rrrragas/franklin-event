@@ -31,3 +31,21 @@
     order: unset;
   }
 }
+
+
+
+/*** updated css ***/
+
+.columns.block>div{
+  padding: 15px;
+}
+
+.columns.block>div:nth-child(even) {
+  background-color: #e6e6e6;
+  /* Add any styles for even rows */
+}
+
+.columns.block>div:nth-child(odd) {
+  background-color: #d3d3d3;
+  /* Add any styles for odd rows */
+}

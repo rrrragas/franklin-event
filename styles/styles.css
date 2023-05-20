@@ -241,3 +241,26 @@ main .section {
 main .section.highlight {
   background-color: var(--highlight-background-color);
 }
+
+
+
+/** updated CSS **/
+
+.animation img {
+  height: 100px;
+  width: 100px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: transparent;
+  animation: moveUpRight .5s forwards;
+}
+
+@keyframes moveUpRight {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, calc(-100vh + 150px));
+  }
+}

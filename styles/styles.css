@@ -252,6 +252,7 @@ main .section.highlight {
   position: fixed;
   bottom: 0;
   right: 0;
+  z-index: 10;
   background-color: transparent;
   animation: moveUpRight .5s forwards;
 }
@@ -261,6 +262,6 @@ main .section.highlight {
     transform: translate(0, 0);
   }
   100% {
-    transform: translate(-100%, calc(-100vh + 150px));
+    transform: translate(-100%, calc(-100vh + 100px));
   }
 }
